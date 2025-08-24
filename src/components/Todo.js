@@ -3,7 +3,7 @@ import { IoMdAddCircle } from "react-icons/io";
 import './Todo.css';
 import { MdDeleteForever } from "react-icons/md";
 const Todo = () => {
-    const [input,setInput] = useState();
+    const [input,setInput] = useState('');
     const [todo,setTodo] = useState([]);
     function handleOnChange(event){
         setInput(event.target.value);
